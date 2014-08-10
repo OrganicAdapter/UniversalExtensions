@@ -30,7 +30,6 @@ d:\SoftIT\UniversalExtensions\bin\Debug\System.Net.Http.Primitives.dll
 d:\SoftIT\UniversalExtensions\bin\Debug\System.Net.Http.Extensions.xml
 d:\SoftIT\UniversalExtensions\bin\Debug\System.Net.Http.Primitives.xml
 d:\SoftIT\UniversalExtensions\obj\Debug\UniversalExtensions.csproj.App.config
-d:\SoftIT\UniversalExtensions\obj\Debug\UniversalExtensions.csprojResolveAssemblyReference.cache
 d:\SoftIT\UniversalExtensions\obj\Debug\UniversalExtensions.dll
 d:\SoftIT\UniversalExtensions\obj\Debug\UniversalExtensions.pdb
 d:\SoftIT\UniversalExtensions\obj\Debug\priconfig.xml
@@ -44,3 +43,4 @@ d:\SoftIT\UniversalExtensions\obj\Debug\pri.resfiles.intermediate
 d:\SoftIT\UniversalExtensions\obj\Debug\qualifiers.txt
 d:\SoftIT\UniversalExtensions\obj\Debug\qualifiers.txt.intermediate
 d:\SoftIT\UniversalExtensions\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\SoftIT\UniversalExtensions\obj\Debug\UniversalExtensions.csprojResolveAssemblyReference.cache
