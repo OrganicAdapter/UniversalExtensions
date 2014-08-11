@@ -51,6 +51,7 @@
     <Compile Include="GroupedItems\IGroupItem.cs" />
     <Compile Include="HttpClientService.cs" />
     <Compile Include="Converter.cs" />
+    <Compile Include="JsonSerializer.cs" />
     <Compile Include="MVVM\ViewModelBase.cs" />
     <Compile Include="Navigation\INavigationService.cs" />
     <Compile Include="Navigation\ITypeService.cs" />
@@ -62,6 +63,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\ShoppingList\packages\Newtonsoft.Json.6.0.4\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Net.Http.Extensions">
       <HintPath>..\EgyenlitoUniversal\packages\Microsoft.Net.Http.2.2.22\lib\portable-net45+win8+wpa81\System.Net.Http.Extensions.dll</HintPath>
     </Reference>

@@ -44,3 +44,5 @@ d:\SoftIT\UniversalExtensions\obj\Debug\qualifiers.txt
 d:\SoftIT\UniversalExtensions\obj\Debug\qualifiers.txt.intermediate
 d:\SoftIT\UniversalExtensions\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\SoftIT\UniversalExtensions\obj\Debug\UniversalExtensions.csprojResolveAssemblyReference.cache
+d:\SoftIT\UniversalExtensions\bin\Debug\Newtonsoft.Json.dll
+d:\SoftIT\UniversalExtensions\bin\Debug\Newtonsoft.Json.xml
