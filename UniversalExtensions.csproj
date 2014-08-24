@@ -46,9 +46,11 @@
     <Compile Include="Converters\BooleanNegationConverter.cs" />
     <Compile Include="Converters\BooleanVisibilityConverter.cs" />
     <Compile Include="Converters\BooleanVisibilityNegationConverter.cs" />
+    <Compile Include="Converters\ColorStringConverter.cs" />
     <Compile Include="GeolocatorService.cs" />
     <Compile Include="GroupedItems\GroupedListItem.cs" />
     <Compile Include="GroupedItems\IGroupItem.cs" />
+    <Compile Include="Helpers\PointerRoutedEventArgsToPointerPointConverter.cs" />
     <Compile Include="HttpClientService.cs" />
     <Compile Include="Converter.cs" />
     <Compile Include="JsonSerializer.cs" />
@@ -64,7 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\ShoppingList\packages\Newtonsoft.Json.6.0.4\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\EgyenlitoUniversal\packages\Newtonsoft.Json.6.0.4\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.Extensions">
       <HintPath>..\EgyenlitoUniversal\packages\Microsoft.Net.Http.2.2.22\lib\portable-net45+win8+wpa81\System.Net.Http.Extensions.dll</HintPath>
@@ -73,6 +75,7 @@
       <HintPath>..\EgyenlitoUniversal\packages\Microsoft.Net.Http.2.2.22\lib\portable-net45+win8+wpa81\System.Net.Http.Primitives.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\EgyenlitoUniversal\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\EgyenlitoUniversal\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">

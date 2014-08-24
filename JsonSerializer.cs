@@ -18,5 +18,10 @@ namespace UniversalExtensions
         {
             return await JsonConvert.SerializeObjectAsync(list);
         }
+
+        public async static Task<string> Serialize(object obj)
+        {
+            return await JsonConvert.SerializeObjectAsync(obj);
+        }
     }
 }

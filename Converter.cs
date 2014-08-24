@@ -13,6 +13,9 @@ namespace UniversalExtensions
         {
             var observable = new ObservableCollection<T>();
 
+            if (list == null)
+                return observable;
+
             foreach (var item in list)
             {
                 observable.Add(item);

@@ -17,8 +17,8 @@ namespace UniversalExtensions
 
         #region Properties
 
-        public HttpClient Client { get; set; }
-        public string UriBase { get; set; }
+        private HttpClient Client { get; set; }
+        private string UriBase { get; set; }
 
         #endregion //Properties
 
@@ -36,8 +36,16 @@ namespace UniversalExtensions
 
         public async Task<string> GetRequest(string uri)
         {
-            var str = await Client.GetStringAsync(new Uri(UriBase + uri, UriKind.RelativeOrAbsolute));
-            return str;
+            try
+            {
+                var str = await Client.GetStringAsync(new Uri(UriBase + uri, UriKind.RelativeOrAbsolute));
+                return str;
+            }
+
+            catch
+            {
+                return null;
+            }
         }
 
         #endregion //Methods
