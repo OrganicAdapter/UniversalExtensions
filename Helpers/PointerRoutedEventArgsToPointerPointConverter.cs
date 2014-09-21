@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.Foundation;
+using Windows.UI.Input;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
@@ -18,7 +19,11 @@ namespace UniversalExtensions.Helpers
             var element = (FrameworkElement)parameter;
 
             var point = args.GetCurrentPoint(element);
-            return point;
+
+            if (point.Properties.IsLeftButtonPressed)
+                return point;
+            else
+                return null;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, string language)

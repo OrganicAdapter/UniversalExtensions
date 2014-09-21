@@ -38,13 +38,13 @@ namespace UniversalExtensions
         {
             try
             {
-                var str = await Client.GetStringAsync(new Uri(UriBase + uri, UriKind.RelativeOrAbsolute));
+                var str = await Client.GetStringAsync(new Uri(UriBase + "/" + uri, UriKind.RelativeOrAbsolute));
                 return str;
             }
 
             catch
             {
-                return null;
+                return "";
             }
         }
 

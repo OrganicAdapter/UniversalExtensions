@@ -10,8 +10,8 @@ namespace UniversalExtensions.Navigation
 
     public interface INavigationService
     {
-        void Navigate(string project, string uri);
-        void Navigate(string project, string uri, object param);
+        void Navigate(string project, string page);
+        void Navigate(string project, string page, object param);
         void GoBack();
 
         event NavigationCompletedEventHandler NavigationComplatedEvent;

@@ -14,11 +14,6 @@ namespace UniversalExtensions
             return await JsonConvert.DeserializeObjectAsync<T>(json);
         }
 
-        public async static Task<string> Serialize<T>(List<T> list)
-        {
-            return await JsonConvert.SerializeObjectAsync(list);
-        }
-
         public async static Task<string> Serialize(object obj)
         {
             return await JsonConvert.SerializeObjectAsync(obj);

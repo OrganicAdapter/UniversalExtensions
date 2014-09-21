@@ -22,3 +22,4 @@ d:\SoftIT\UniversalExtensions\obj\Release\pri.resfiles.intermediate
 d:\SoftIT\UniversalExtensions\obj\Release\qualifiers.txt
 d:\SoftIT\UniversalExtensions\obj\Release\qualifiers.txt.intermediate
 d:\SoftIT\UniversalExtensions\obj\Release\MultipleQualifiersPerDimensionFound.txt
+d:\SoftIT\UniversalExtensions\obj\Release\UniversalExtensions.csprojResolveAssemblyReference.cache

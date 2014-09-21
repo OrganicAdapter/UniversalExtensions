@@ -41,9 +41,9 @@ namespace UniversalExtensions.Navigation
 
         #region Methods
 
-        public void Navigate(string project, string uri)
+        public void Navigate(string project, string page)
         {
-            var type = _typeService.GetType(project + "." + uri);
+            var type = _typeService.GetType(project + "." + page);
             RootFrame.Navigate(type);
             RootFrame.Navigated += Navigated;
         }
@@ -54,9 +54,9 @@ namespace UniversalExtensions.Navigation
                 NavigationComplatedEvent(this, e.Parameter);
         }
 
-        public void Navigate(string project, string uri, object param)
+        public void Navigate(string project, string page, object param)
         {
-            var type = _typeService.GetType(project + "." + uri);
+            var type = _typeService.GetType(project + "." + page);
             RootFrame.Navigate(type, param);
         }
 

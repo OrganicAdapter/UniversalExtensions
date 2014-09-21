@@ -25,8 +25,10 @@ d:\SoftIT\UniversalExtensions\bin\Debug\UniversalExtensions.dll.config
 d:\SoftIT\UniversalExtensions\bin\Debug\UniversalExtensions.dll
 d:\SoftIT\UniversalExtensions\bin\Debug\UniversalExtensions.pdb
 d:\SoftIT\UniversalExtensions\bin\Debug\UniversalExtensions.pri
+d:\SoftIT\UniversalExtensions\bin\Debug\Newtonsoft.Json.dll
 d:\SoftIT\UniversalExtensions\bin\Debug\System.Net.Http.Extensions.dll
 d:\SoftIT\UniversalExtensions\bin\Debug\System.Net.Http.Primitives.dll
+d:\SoftIT\UniversalExtensions\bin\Debug\Newtonsoft.Json.xml
 d:\SoftIT\UniversalExtensions\bin\Debug\System.Net.Http.Extensions.xml
 d:\SoftIT\UniversalExtensions\bin\Debug\System.Net.Http.Primitives.xml
 d:\SoftIT\UniversalExtensions\obj\Debug\UniversalExtensions.csproj.App.config
@@ -43,6 +45,4 @@ d:\SoftIT\UniversalExtensions\obj\Debug\pri.resfiles.intermediate
 d:\SoftIT\UniversalExtensions\obj\Debug\qualifiers.txt
 d:\SoftIT\UniversalExtensions\obj\Debug\qualifiers.txt.intermediate
 d:\SoftIT\UniversalExtensions\obj\Debug\MultipleQualifiersPerDimensionFound.txt
-d:\SoftIT\UniversalExtensions\bin\Debug\Newtonsoft.Json.dll
-d:\SoftIT\UniversalExtensions\bin\Debug\Newtonsoft.Json.xml
 d:\SoftIT\UniversalExtensions\obj\Debug\UniversalExtensions.csprojResolveAssemblyReference.cache
